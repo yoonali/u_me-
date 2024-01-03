@@ -1,0 +1,21 @@
+html {
+    background-color: #FFE9F1;
+    height: 100%;
+    font-family: 'Luxurious Roman', sans-serif;
+}
+
+body {
+    color: #5C3A47;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.font_div {
+    text-align: center;
+}
+
+#font{
+    font-size: 50px;
+}

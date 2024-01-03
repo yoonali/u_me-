@@ -1,0 +1,137 @@
+body, div, a, h1, h2, h3, h4, p, ul, li, p{
+    color: #5C3A47;
+    font-family: 'Luxurious Roman', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #5C3A47;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+li{
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: top;
+}
+
+#body{
+    background: #ffffff;
+    font-family: 'Luxurious Roman',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: #5C3A47;
+    letter-spacing: 0;
+}
+
+#wrapper{
+    width: 100%;
+    position: relative;
+}
+
+.main_pic{
+    padding-top: 98px;
+    display: block;
+    width: 100%;
+}
+
+#pic1{
+    width: 100%;
+}
+
+.m_banner .Inner {
+    width: 40%;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+.m_banner .Inner .bnTxt {
+    margin: 0 0 20px;
+}
+
+.m_banner .Inner .bnTxt h4 {
+    font-size: 19.4px;
+    font-weight: 400;
+    color: #5C3A47;
+}
+
+.m_banner .Inner .bnTxt p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #B28A99;
+}
+
+.m_banner .Inner .imgArea img {
+    width: 100%;
+    height: auto;
+}
+
+.c_banner{
+    width: 100%;
+}
+
+.c_banner .content {
+    padding: 8% 10%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.c_banner .content .content-1{
+    width: 33.33333%;
+    flex: 1;
+    text-align: center;
+}
+
+.c_banner .content .content-1 .img1{
+    width: 100%;
+    max-width: 100%;
+}
+
+.c_banner .content .content-1 .contentTxt1{
+    text-align: left;
+    display: inline-block;
+}
+
+.c_banner .content .content-2 {
+    width: 33.33333%;
+    flex: 1;
+    text-align: center;
+}
+
+.c_banner .content .content-2 .img2{
+    width: 100%;
+    max-width: 100%;
+}
+
+.c_banner .content .content-2 .contentTxt2{
+    text-align: left;
+    display: inline-block;
+}
+
+.c_banner .content .content-3 {
+    width: 33.33333%;
+    flex: 1;
+    text-align: center;
+}
+
+.c_banner .content .content-3 .img3{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10%;
+}
+
+.c_banner .content .content-3 .contentTxt3{
+    text-align: left;
+    display: inline-block;
+}
+
+
+.c_banner img {
+    width: 250px;
+}

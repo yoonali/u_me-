@@ -1,0 +1,135 @@
+body, div, a, h1, h2, h3, h4, p, ul, li, p{
+    color: #5C3A47;
+    font-family: 'Luxurious Roman', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #5C3A47;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+li{
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: top;
+}
+
+#body{
+    background: #ffffff;
+    font-family: 'Luxurious Roman',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: #5C3A47;
+    letter-spacing: 0;
+}
+
+#wrapper{
+    width: 100%;
+    position: relative;
+}
+
+.content {
+    padding: 160px 0 0 50px;
+}
+
+.container2 {
+    position: relative;
+    padding-bottom: 90px;
+  }
+  
+  .item_l {
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    width: 45%;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .item_l img {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  
+  .item_r {
+    display: inline-block;
+    position: sticky;
+    top: 120px; 
+    width: 45%;
+    box-sizing: border-box;
+    text-align: left;
+    vertical-align: top;
+}
+  
+  
+  .item_r::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 2px;
+  }
+  
+
+.item_r .infoArea {
+    margin-left: 250px;
+}
+
+.item_r .prd_desc{
+    margin-bottom: 30px;
+}
+
+.item_r .prd_name{
+    font-size: 25px;
+    font-weight: inherit;
+}
+
+.item_r .prd_price {
+    font-size: 18px;
+}
+
+.item_r .size {
+    width: 90%;
+    height: 40px;
+    font-size: 12px;
+    border-radius: 50px;
+    font-weight: inherit;
+    border: 0.15em solid #5C3A47;
+    line-height: 20px;
+    margin-bottom: 30px;
+    padding: 0px 10px;
+}
+
+.item_r .infoArea .desc_mainT {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.item_r .infoArea .desc_mainT h4 {
+    width: fit-content;
+    border-bottom: 3px #BCA6AF solid;
+}
+
+.item_r .infoArea .desc_txt{
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+
+.item_r .infoArea .b_btn button {
+    background-color: #BCA6AF;
+    color: white;
+    padding: 10px 20px;
+    width: 70%;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}

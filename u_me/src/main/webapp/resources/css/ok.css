@@ -1,0 +1,119 @@
+@charset "EUC-KR";
+
+body,
+div,
+a,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li,
+p {
+  color: #5c3a47;
+  font-family: "Luxurious Roman", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #5c3a47;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  border: none;
+  vertical-align: top;
+}
+
+#body {
+  background: #ffffff;
+  font-family: "Luxurious Roman", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6em;
+  color: #5c3a47;
+  letter-spacing: 0;
+}
+
+#wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.container {
+  padding-top: 60px;
+}
+
+.container .contents {
+  padding: 10% 20%;
+  box-sizing: border-box;
+}
+
+.container .contents .confirm {
+  padding: 60px 20%;
+  text-align: center;
+}
+
+.container .contents .confirm .confirmTxt {
+  margin: 0 0 27px;
+}
+
+.container .contents .confirm .confirmTxt h4 {
+  font-weight: 580;
+}
+
+.container .contents .confirm .s_info {
+  padding: 5% 0;
+}
+
+.container .contents .confirm .id {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .contents .confirm .name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .contents .confirm .id strong {
+  margin-left: 50px;
+}
+
+.container .contents .confirm .name strong {
+  margin-left: 64px;
+}
+
+.container .contents .confirm img {
+  margin-top: 5px;
+}
+
+.container .contents .confirm .go-to-main .main-btn {
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.container .contents .confirm .go-to-main {
+  display: inline-block;
+  width: 30%;
+  padding: 8px;
+  margin-top: 30px;
+  background-color: #5c3a47;
+  color: #fff;
+  border: 1px solid #5c3a47;
+  text-align: center;
+}
+
+.container .contents .confirm .go-to-main .main-btn {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 550;
+}
